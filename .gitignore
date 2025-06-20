@@ -1,0 +1,16 @@
+cat > .gitignore <<EOF
+# Node.js
+node_modules/
+npm-debug.log
+
+# Docker
+*.tar
+*.log
+
+# VSCode
+.vscode/
+
+# Kubernetes
+.kube/
+EOF
+

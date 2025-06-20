@@ -1,0 +1,19 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: eks-fargate-demo
+  namespace: argocd
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/aaleem123/ArgoCD.git
+    targetRevision: HEAD
+    path: manifests/overlays/fargate
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: eks-fargate-demo
+  syncPolicy:
+    automated:
+      prune: true
+      selfHeal: true
+

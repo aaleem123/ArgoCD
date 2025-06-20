@@ -1,0 +1,15 @@
+server:
+  service:
+    type: LoadBalancer
+    annotations:
+      # switch to NLB rather than classic ELB
+      service.beta.kubernetes.io/aws-load-balancer-type: "nlb"
+      # make it publicly internet-facing
+      service.beta.kubernetes.io/aws-load-balancer-scheme: "internet-facing"
+      # register pod IPs directly as targets
+      service.beta.kubernetes.io/aws-load-balancer-target-type: "ip"
+    ports:
+      - name: http
+        port: 80
+        targetPort: 8080
+

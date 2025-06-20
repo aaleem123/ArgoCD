@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: eks-fargate-demo
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: eks-fargate-demo
+  template:
+    metadata:
+      labels:
+        app: eks-fargate-demo
+    spec:
+      containers:
+        - name: web
+          image: aaleem1993/eks-fargate-demo:1.0.0
+          ports:
+            - containerPort: 3000
+          resources:
+            requests:
+              cpu: 250m
+              memory: 512Mi
+            limits:
+              cpu: 500m
+              memory: 1Gi
+
