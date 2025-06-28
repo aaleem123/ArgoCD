@@ -7,6 +7,7 @@
 **🌍 Project Overview**
 - 🚀 Serverless Kubernetes using Fargate, no EC2 node management
 - 🔄 Argo CD GitOps for automated, Git-driven application deployment
+- Nodejs application
 
 **⚙️ Prerequisites**
 - ✅ AWS CLI configured
