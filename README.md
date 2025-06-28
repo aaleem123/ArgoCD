@@ -1,22 +1,20 @@
 **☸️ EKS Fargate Argo CD Demo**
-✅ Provisioning an AWS EKS Cluster with Fargate profiles using Terraform
-✅ Deploying applications with Argo CD GitOps
-✅ Fully serverless Kubernetes nodes with AWS Fargate
-✅ Infrastructure and workloads managed declaratively from Git
+- ✅ Provisioning an AWS EKS Cluster with Fargate profiles 
+- ✅ Deploying applications with Argo CD GitOps
+- ✅ Fully serverless Kubernetes nodes with AWS Fargate
+- ✅ Infrastructure and workloads managed declaratively from Git
 
 **🌍 Project Overview**
 - 🚀 Serverless Kubernetes using Fargate, no EC2 node management
 - 🔄 Argo CD GitOps for automated, Git-driven application deployment
-- ⚡ Streamlined infrastructure with Terraform as Infrastructure as Code (IaC)
 
 **⚙️ Prerequisites**
 - ✅ AWS CLI configured
 - ✅ kubectl installed
-- ✅ Terraform v1.x
 - ✅ Argo CD CLI (optional but recommended)
 - ✅ AWS account with permissions for EKS & Fargate
 
-**Built with ❤️ using Terraform, AWS EKS, Fargate & Argo CD**
+**Built with ❤️ using AWS EKS, Fargate & Argo CD**
 
 **Screenshots for ArgoCD :)**
 
