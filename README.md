@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/a0051fa4-4efe-4491-bba9-a58130091eba)
+
 **☸️ EKS Fargate Argo CD Demo**
 - ✅ Provisioning an AWS EKS Cluster with Fargate profiles 
 - ✅ Deploying applications with Argo CD GitOps
