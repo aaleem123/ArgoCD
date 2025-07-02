@@ -31,5 +31,5 @@ echo "Verifying access to cluster ..."
 kubectl get nodes
 kubectl get ns
 
-echo "Setup complete! Your cluster is ready for Argo CD + app deployment."
+echo "Setup complete! Cluster is ready for Argo CD + app deployment."
 
